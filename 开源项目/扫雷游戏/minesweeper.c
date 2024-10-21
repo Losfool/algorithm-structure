@@ -30,12 +30,12 @@ void DisplayBoard(char board[ROWS][COLS], int row, int col)
 			printf(" %c |", board[i][j]);
 		}
 		printf("\n");
-		printf("   |", i + 1);
+		/*printf("   |", i + 1);
 		for (j = 0; j < col; j++)
 		{
 			printf("---|");
 		}
-		printf("\n");
+		printf("\n");*/
 	}
 	printf("\n");
 }
