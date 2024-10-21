@@ -13,8 +13,8 @@ void game()
 {
 	char mine[ROWS][COLS] = { 0 }; //置放雷的棋盘
 	char show[ROWS][COLS] = { 0 }; //展示给玩家的棋盘
-	InitBoard(mine, ROWS, COLS, '0');
-	InitBoard(show, ROWS, COLS, '*');
+	InitBoard(mine, ROWS, COLS, '0'); //mine中的每个元素都变为0
+	InitBoard(show, ROWS, COLS, '*');  //show中的每个元素都变为*
 	ScMinc(mine, ROW, COL);        //置雷
 	//DisplayBoard(mine, ROW, COL);  
 	DisplayBoard(show, ROW, COL);
