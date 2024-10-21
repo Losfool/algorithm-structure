@@ -45,7 +45,7 @@ void ScMinc(char board[ROWS][COLS], int row, int col)
 {
 	int x = 0;
 	int y = 0;
-	int count = EASY_COUNT;
+	int count = EASY_COUNT;   //埋雷数
 	while (count)
 	{
 		x = rand() % 9 + 1;
